@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>L1: Create & Connect CSS file</title>
-    <link rel="icon" href="/images/1.png" />
+    <title>L3: Box Model. + Padding & Margin CSS property</title>
+    <link rel="icon" href="/images/3.png" />
   </head>
   <body marginwidth="0" marginheight="0">
     <!--Navigation Bar-->
@@ -64,31 +64,38 @@
       </tr>
       <tr>
         <td bgcolor="D0DEEF" align="left" width="50%" id="Discussion">
-          <font face="Montserrat,sans-serif" size="6">
+          <font face="Montserrat,sans-serif" size="5">
             <h1>
-              Lesson 1: How to create and connect
-              <font color="#1172B8"> CSS</font> to
-              <font color="FF9D00">HTML</font> file <br />
+              Lesson 3: Box Model + Padding & Margin
+              <font color="#1172B8">CSS</font> Property
             </h1>
 
             <p>
-              Knowing this is important because it controls the design of a
-              website, like colors, fonts, and layout.
+              The <strong>Box Model</strong> is a concept in CSS that describes
+              how every HTML element is represented as a rectangular box. Each
+              box is made up of four parts: content, padding, border, and
+              margin.
             </p>
 
             <p>
-              Allows us to separate the content (HTML) from the design (CSS).
-              This makes our codes more organized!
+              Padding and margin help improve layout and readability by
+              controlling the space inside the element (padding) and outside the
+              border (margin).
             </p>
 
-            <p>The file extension for CSS file is ".css".</p>
+            <p>
+              We can apply padding and margin to HTML elements like
+              <code>div</code>, <code>p</code>, and <code>h1</code> to control
+              their spacing and layout.
+            </p>
           </font>
         </td>
 
         <td bgcolor="D0DEEF" align="center" width="5%"></td>
-        <td bgcolor="D0DEEF" align="center">
-          <img src="/images/cssfile.png" width="100%" alt="" />
+        <td bgcolor="262626" align="center">
+          <img src="/images/L3images/box_model.png" width="100%" alt="" />
         </td>
+        <td colspan="2" width="3%" bgcolor="D0DEEF"></td>
       </tr>
     </table>
     <br />
@@ -109,59 +116,21 @@
                 <font color="white" size="10px" face="Fira Code,sans-serif"
                   >1.</font
                 >
-                <img src="/images/L1images/folder.png" width="100%" />
+                <img src="/images/L3images/1.png" width="100%" />
               </td>
 
               <td>
                 <font color="white" size="10px" face="Fira Code,sans-serif"
                   >2.</font
                 >
-                <img src="/images/L1images/VScode.png" width="100%" />
+                <img src="/images/L3images/2.png" width="100%" />
               </td>
 
               <td>
                 <font color="white" size="10px" face="Fira Code,sans-serif"
                   >3.</font
                 >
-                <img
-                  src="/images/L1images/VScodeempty.png"
-                  width="100%"
-                  height="100%"
-                />
-                <img
-                  src="/images/L1images/openedfolder.png"
-                  width="50%"
-                  height="100%"
-                />
-              </td>
-
-              <td rowspan="4" width="40%">
-                <font color="white" size="10px" face="Fira Code,sans-serif"
-                  >7.</font
-                >
-                <img src="/images/L1images/final.png" width="100%" />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <font color="white" size="10px" face="Fira Code,sans-serif"
-                  >4.</font
-                >
-                <img src="/images/L1images/html.png" width="100%" />
-              </td>
-
-              <td>
-                <font color="white" size="10px" face="Fira Code,sans-serif"
-                  >5.</font
-                >
-                <img src="/images/L1images/css.png" width="100%" />
-              </td>
-
-              <td>
-                <font color="white" size="10px" face="Fira Code,sans-serif"
-                  >6.</font
-                >
-                <img src="/images/L1images/htmlboiler.png" width="100%" />
+                <img src="/images/L3images/3.png" width="100%" />
               </td>
             </tr>
           </table>
@@ -171,34 +140,37 @@
 
         <td bgcolor="#33AADD" align="left" width="50%" id="Steps">
           <font color="white" face="Montserrat,sans-serif" size="5"
-            ><h1>Steps in Creating and Connecting CSS file <br /></h1
-          ></font>
+            ><h1>
+              Steps In Applying Padding and Margin Color CSS Property
+            </h1></font
+          >
           <font color="white" face="Montserrat,sans-serif" size="5">
             <ol>
-              <li>Create a folder.</li>
-              <li><p>Open Visual Studio Code(VS code).</p></li>
               <li>
                 <p>
-                  In the Explorer Sidebar under the folder section, open the
-                  folder.
+                  Using our previous output. Inside the <code>div</code>, add a
+                  text content so the effects of padding can be clearly seen.
                 </p>
               </li>
+
               <li>
                 <p>
-                  Once the folder is open in VS code, create "index.html" file.
+                  In the CSS file, Set the width, height, background color of
+                  the
+                  <code>div</code>, aswell as the font-size of text(equivalent
+                  of <code>size</code>), to clearly see the spacing effects.
+                  <br />
+                  <br />
+                  Apply the <code>padding</code> property to add space inside
+                  the element and the <code>margin</code> property to add space
+                  outside the element’s border.
                 </p>
               </li>
-              <li>
-                <p>Next create "<em>style.css</em>" file.</p>
-              </li>
-              <li>
-                <p>Click index.html file, click shift + 1 then enter</p>
-              </li>
+
               <li>
                 <p>
-                  Finally inside the head tag, connect the style.css file by
-                  adding
-                  <em> < "link rel="stylesheet" href="styles.css" ></em>
+                  Save both the HTML and CSS files, then refresh the browser to
+                  see how padding and margin affect the layout of the box.
                 </p>
               </li>
             </ol>
@@ -234,14 +206,23 @@
               <td align="left">
                 <font color="black" face="Montserrat,sans-serif" size="5">
                   <ol>
-                    <li>Create a folder in your desktop.</li>
+                    <li>
+                      Create a div element.
+                      <br />
+                      Give it a text inside
+                    </li>
                     <br />
-                    <li>Next, Open the folder in VS code.</li>
+                    <li>
+                      Next, it should have a width and a height of 500px.
+                      <br />
+                      You can add font-size and background color to clearly see
+                      the effect
+                    </li>
+
                     <br />
-                    <li>Inside the folder, create an HTML and CSS file</li>
-                    <br />
-                    <li>Finally, connect the CSS file to the HTML file.</li>
+                    <li>Finally, give it a padding and margin value.</li>
                   </ol>
+                  <center>Note: Refresh the page to see the result!</center>
                 </font>
               </td>
             </tr>
